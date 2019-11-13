@@ -22,6 +22,11 @@ public class AdminController {
     @Resource
     private AdminService adminService;
 
+    /**
+     * 登录
+     * @param admin
+     * @return
+     */
     @PostMapping("/access_token")
     public BaseResult login(@RequestBody Admin admin){
         Admin loginResult = adminService.login(admin);
