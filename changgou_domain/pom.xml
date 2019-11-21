@@ -17,4 +17,5 @@
             <artifactId>changgou_common</artifactId>
         </dependency>
     </dependencies>
+
 </project>

@@ -9,18 +9,18 @@ import java.io.Serializable;
 /**
  * @author xuhongzu
  * @version 1.0
- * @date 2019/11/12
+ * @date 2019/11/13
  */
 @Data
-@Table(name="tb_admin")
-public class Admin implements Serializable {
+@Table(name="tb_brand")
+public class Brand implements Serializable {
 
     @Id
     private Integer id;
+    private String name;
+    private String image;
+    private String letter;
+    private Integer seq;
 
-    private String loginName;
 
-    private String password;
-
-    private String status;
 }

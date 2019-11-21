@@ -14,11 +14,6 @@
         <module>changgou_service</module>
         <module>changgou_domain</module>
         <module>changgou_web</module>
-        <module>changgou_common</module>
-        <module>changgou_domain</module>
-        <module>changgou_dao</module>
-        <module>changgou_service</module>
-        <module>changgou_web</module>
     </modules>
 
 
@@ -130,8 +125,8 @@
                 <version>${spring.boot.version}</version>
                 <optional>true</optional>
             </dependency>
+
         </dependencies>
+
     </dependencyManagement>
-
-
 </project>

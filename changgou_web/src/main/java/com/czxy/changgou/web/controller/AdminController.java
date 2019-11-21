@@ -5,7 +5,6 @@ import com.czxy.changgou.domain.Admin;
 import com.czxy.changgou.service.AdminService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -16,7 +15,6 @@ import javax.annotation.Resource;
  * @date 2019/11/12
  */
 @RestController
-@RequestMapping
 public class AdminController {
 
     @Resource

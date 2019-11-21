@@ -80,3 +80,4 @@ public class BaseResult {
         return this;
     }
 }
+
