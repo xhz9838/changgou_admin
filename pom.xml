@@ -29,7 +29,7 @@
         <mapper.version>2.0.4</mapper.version>
         <pagehelper.version>1.2.3</pagehelper.version>
         <durid.version>1.1.18</durid.version>
-        <commons.lang3.version>3.8.1</commons.lang3.version>
+        <commons.lang3.version>3.18.0</commons.lang3.version>
         <lombok.version>1.0</lombok.version>
         <changgou.version>1.0-SNAPSHOT</changgou.version>
 
